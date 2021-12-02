@@ -5,7 +5,7 @@ export default function About(props) {
     <div className={`p-5 mb-4 bg-${props.mode === 'dark' ? '#1c1d1f' : 'white'} text-${props.mode === 'dark' ? 'white' : 'black'} rounded-3`}>
       <div className="container-fluid py-5">
         <h1 className="display-5 fw-bold">TextDoc</h1>
-        <p className="col-md-8 fs-4">TextDoc is basically a text based utility website which can be used to make working with text a lot more easier. <br/> <br/>
+        <p className="col-md-8 fs-4">TextDoc is a Doctor for texts, basically equipped with text based utilities which can be used to make working with text a lot more easier. <br/> <br/>
           Some of the Features present in TextDoc are :
           <ul>
             <li>Covert to Lower/Upper Case</li>
