@@ -4,9 +4,9 @@ export default function About(props) {
   return (
     <div className={`p-5 mb-4 bg-${props.mode === 'dark' ? '#1c1d1f' : 'white'} text-${props.mode === 'dark' ? 'white' : 'black'} rounded-3`}>
       <div className="container-fluid py-5">
-        <h1 className="display-5 fw-bold">TextUtils</h1>
-        <p className="col-md-8 fs-4">TextUtils is basically a text based utility website which can be used to make working with text a lot more easier. <br/> <br/>
-          Some of the Features present in TextUtils are :
+        <h1 className="display-5 fw-bold">TextDoc</h1>
+        <p className="col-md-8 fs-4">TextDoc is basically a text based utility website which can be used to make working with text a lot more easier. <br/> <br/>
+          Some of the Features present in TextDoc are :
           <ul>
             <li>Covert to Lower/Upper Case</li>
             <li>Clear all text From the text area</li>
@@ -18,7 +18,7 @@ export default function About(props) {
           <ul><li>An ultra Awesome Dark mode So you dont spoil your vision and keep working efficiently, Woohoo !</li></ul>
           <br/>
           And Whats more, We are constantly increasing the features we provide <br/>
-          So Stay tuned and Keep using <strong>TextUtils</strong>.
+          So Stay tuned and Keep using <strong>TextDoc</strong>.
         </p>
       </div>
     </div>

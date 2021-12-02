@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar title="TextUtils" abtText="About TextUtils" mode={mode} toggleMode={toggleMode} />
+        <Navbar title="TextDoc" abtText="About TextDoc" mode={mode} toggleMode={toggleMode} />
         <Routes>
           <Route path="/about" element={<About mode={mode}/>} />
           <Route path="/" element={<TextForm heading="Enter the text to be analysed here" mode={mode} />} />
