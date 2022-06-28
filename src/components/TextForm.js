@@ -15,6 +15,7 @@ export default function TextForm(props) {
   }
   const handleChange = (event) => {
     setText(event.target.value);
+    console.log(text);
   }
   const loCase = () => {
     let newText = text.toLowerCase();
